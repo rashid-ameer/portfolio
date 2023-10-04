@@ -5,3 +5,5 @@ export { default as Subtitle } from "./Subtitle";
 export { default as About } from "./About";
 export { default as Section } from "./Section";
 export { default as AboutDetail } from "./AboutDetail";
+export { default as Skill } from "./Skill";
+export { default as SingleSkill } from "./SingleSkill";

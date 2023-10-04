@@ -1,4 +1,4 @@
-import { About, Hero, Section } from "./components";
+import { About, Hero, Section, Skill } from "./components";
 
 function App() {
 	return (
@@ -10,6 +10,10 @@ function App() {
 
 			<Section>
 				<About />
+			</Section>
+			{/* Skill container */}
+			<Section>
+				<Skill />
 			</Section>
 		</div>
 	);

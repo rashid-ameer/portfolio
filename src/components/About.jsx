@@ -3,7 +3,7 @@ import { AboutDetail, Container, Subtitle } from "./";
 
 const About = () => {
 	return (
-		<Container styleClasses={"py-12"}>
+		<Container>
 			{/* title */}
 			<Subtitle titleOne={"About"} titleTwo={"me"} />
 			{/* other content */}
