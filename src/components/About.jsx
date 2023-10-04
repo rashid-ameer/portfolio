@@ -11,7 +11,7 @@ const About = () => {
 			<div className="py-2 grid grid-rows-2 justify-center lg:justify-start lg:grid-rows-none lg:grid-cols-[auto_1fr] gap-8 lg:gap-16 mt-12">
 				{/* image container */}
 
-				<div className="self-center lg:relative lg:before:absolute lg:before:w-full lg:before:h-full lg:before:border-4 lg:before:border-blue lg:before:translate-x-3 lg:before:translate-y-3 lg:before:-z-[1]">
+				<div className="self-center lg:relative lg:z-[1] lg:before:absolute lg:before:w-full lg:before:h-full lg:before:border-4 lg:before:border-blue lg:before:translate-x-3 lg:before:translate-y-3 lg:before:-z-[1]">
 					<img
 						src={profile1}
 						alt="Rashid Ameer"
