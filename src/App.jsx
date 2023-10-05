@@ -1,4 +1,4 @@
-import { About, Hero, Projects, Section, Skill } from "./components";
+import { About, Footer, Hero, Projects, Section, Skill } from "./components";
 
 function App() {
 	return (
@@ -20,6 +20,10 @@ function App() {
 			<Section>
 				<Projects />
 			</Section>
+
+			<footer className="py-12 lg:py-24 bg-blue-50">
+				<Footer />
+			</footer>
 		</div>
 	);
 }

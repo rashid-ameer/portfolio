@@ -12,3 +12,4 @@ export { default as SingleProject } from "./SingleProject";
 export { default as SingleProjectHeader } from "./SingleProjectHeader";
 export { default as SingleProjectInfo } from "./SingleProjectInfo";
 export { default as SingleProjectSwiper } from "./SingleProjectSwiper";
+export { default as Footer } from "./Footer";

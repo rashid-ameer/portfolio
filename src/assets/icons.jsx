@@ -1,6 +1,8 @@
 import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { FiExternalLink } from "react-icons/fi";
 import { AiOutlineGithub } from "react-icons/ai";
+import { HiOutlineMail } from "react-icons/hi";
 import react from "./icons/react.svg";
 import html from "./icons/html.svg";
 import css from "./icons/css.svg";
@@ -24,4 +26,6 @@ export {
 	tailwind,
 	FiExternalLink as ExternalLink,
 	AiOutlineGithub as GithubIcon,
+	FaLinkedinIn as LinkedInIcon,
+	HiOutlineMail as Mail,
 };
