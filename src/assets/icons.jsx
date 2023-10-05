@@ -1,4 +1,6 @@
 import { FaArrowLeftLong } from "react-icons/fa6";
+import { FiExternalLink } from "react-icons/fi";
+import { AiOutlineGithub } from "react-icons/ai";
 import react from "./icons/react.svg";
 import html from "./icons/html.svg";
 import css from "./icons/css.svg";
@@ -20,4 +22,6 @@ export {
 	miro,
 	figma,
 	tailwind,
+	FiExternalLink as ExternalLink,
+	AiOutlineGithub as GithubIcon,
 };
