@@ -26,10 +26,13 @@ const Hero = () => {
 					</p>
 
 					{/* Rounded button for CTA*/}
-					<button className="group flex gap-2 items-center justify-center p-5 py-2.5 mx-auto lg:mx-0 rounded-full text-white font-medium bg-blue active:bg-blue-300 hover:bg-blue-400 transition-[background]">
+					<a
+						href="#social-links"
+						className="group flex gap-2 items-center justify-center p-5 py-2.5 mx-auto lg:mx-0 rounded-full text-white font-medium bg-blue active:bg-blue-300 hover:bg-blue-400 transition-[background] w-fit "
+					>
 						Hire me
 						<ArrowLeft className="rotate-180 transition-transform group-hover:translate-x-1.5" />
-					</button>
+					</a>
 				</div>
 
 				{/* profile image */}
