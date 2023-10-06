@@ -1,5 +1,4 @@
 import * as icons from "../assets/icons";
-import { useEffect } from "react";
 import { motion } from "framer-motion";
 import useMotion from "../hooks/Motion";
 

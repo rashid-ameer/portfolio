@@ -38,8 +38,10 @@ const SingleProject = (props) => {
 			<SingleProjectHeader swiperRef={swiperRef} name={name} />
 
 			{/* swiper */}
-			<SingleProjectSwiper swiperRef={swiperRef} images={images} />
 
+			<div className="aspect-[2]">
+				<SingleProjectSwiper swiperRef={swiperRef} images={images} />
+			</div>
 			{/* project information */}
 			<SingleProjectInfo
 				description={description}

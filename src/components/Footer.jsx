@@ -49,7 +49,7 @@ const Footer = () => {
 					Icon={GithubIcon}
 				/>
 				<FooterSocial
-					link={"www.linkedin.com/in/rashid-ameer-b30aa6241"}
+					link={"https://www.linkedin.com/in/rashid-ameer-b30aa6241"}
 					title="LinkedIn"
 					Icon={LinkedInIcon}
 				/>

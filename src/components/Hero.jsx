@@ -11,7 +11,7 @@ const Hero = () => {
 
 			<Container
 				styleClasses={
-					"grid grid-rows-2 lg:grid-rows-none lg:grid-cols-2 justify-items-center lg:justify-items-start gap-6 h-dynamic-full pt-12 lg:pt-0"
+					"grid grid-rows-2 lg:grid-rows-none lg:grid-cols-2 justify-items-center lg:justify-items-start gap-6 h-dynamic-full pt-12 lg:pt-0 overflow-hidden"
 				}
 			>
 				{/* introduction */}

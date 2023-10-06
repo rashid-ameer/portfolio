@@ -2,9 +2,9 @@ import { useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
-const useMotion = () => {
+const useMotion = (threshold = 0) => {
 	const controls = useAnimation();
-	const [motionRef, inView] = useInView();
+	const [motionRef, inView] = useInView({ threshold });
 
 	const swipe = (type, value) => {
 		return {
