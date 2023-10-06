@@ -19,12 +19,7 @@ const TsParticles = () => {
 					},
 				},
 				color: {
-					value: "#a257fd",
-					// animation: {
-					// 	enable: true,
-					// 	speed: 20,
-					// 	sync: true,
-					// },
+					value: "#0092b2",
 				},
 				shape: {
 					type: "circle",

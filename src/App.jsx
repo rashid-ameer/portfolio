@@ -1,4 +1,7 @@
-import { About, Footer, Hero, Projects, Section, Skill } from "./components";
+import { Hero, Section, About, Skill, Projects, Footer } from "./components";
+
+// Create a separate component for the fallback content
+const Fallback = () => <div>Loading...</div>;
 
 function App() {
 	return (
@@ -6,17 +9,14 @@ function App() {
 			{/* Hero container */}
 			<Hero />
 
-			{/* Abou container */}
-
 			<Section>
 				<About />
 			</Section>
-			{/* Skill container */}
+
 			<Section>
 				<Skill />
 			</Section>
 
-			{/* Projects container */}
 			<Section>
 				<Projects />
 			</Section>
