@@ -1,7 +1,10 @@
-import { Hero, Section, About, Skill, Projects, Footer } from "./components";
+import React, { Suspense, lazy } from "react";
+import { Hero, Section } from "./components";
 
-// Create a separate component for the fallback content
-const Fallback = () => <div>Loading...</div>;
+const About = lazy(() => import("./components/About"));
+const Skill = lazy(() => import("./components/Skill"));
+const Projects = lazy(() => import("./components/Projects"));
+const Footer = lazy(() => import("./components/Footer"));
 
 function App() {
 	return (
@@ -9,21 +12,24 @@ function App() {
 			{/* Hero container */}
 			<Hero />
 
-			<Section>
-				<About />
-			</Section>
+			{/* Lazy-loaded components */}
+			<Suspense fallback={<div>Loading...</div>}>
+				<Section>
+					<About />
+				</Section>
 
-			<Section>
-				<Skill />
-			</Section>
+				<Section>
+					<Skill />
+				</Section>
 
-			<Section>
-				<Projects />
-			</Section>
+				<Section>
+					<Projects />
+				</Section>
 
-			<footer className="py-12 lg:py-24 bg-blue-50">
-				<Footer />
-			</footer>
+				<footer className="py-12 lg:py-24 bg-blue-50">
+					<Footer />
+				</footer>
+			</Suspense>
 		</div>
 	);
 }
