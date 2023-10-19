@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from "react";
 import { Hero, Section } from "./components";
-
 const About = lazy(() => import("./components/About"));
 const Skill = lazy(() => import("./components/Skill"));
 const Projects = lazy(() => import("./components/Projects"));
