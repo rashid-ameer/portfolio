@@ -8,7 +8,7 @@ const Skill = () => {
 			<Subtitle titleOne={"My"} titleTwo={"Skills"} />
 			<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 justify-between gap-10 mt-12 py-2">
 				{skillsData.map((data) => {
-					return <SingleSkill key={data.id} title={data.title} />;
+					return <SingleSkill key={data.id} icon={data.icon} title={data.title} />;
 				})}
 			</div>
 		</Container>

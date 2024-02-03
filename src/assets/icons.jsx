@@ -12,6 +12,7 @@ import git from "./icons/git.svg";
 import miro from "./icons/miro.svg";
 import figma from "./icons/figma.svg";
 import tailwind from "./icons/tailwind.svg";
+import next from "./icons/next.js.svg";
 
 export {
 	FaArrowLeftLong as ArrowLeft,
@@ -28,4 +29,5 @@ export {
 	AiOutlineGithub as GithubIcon,
 	FaLinkedinIn as LinkedInIcon,
 	HiOutlineMail as Mail,
+	next,
 };
