@@ -5,28 +5,25 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
 	return (
-		<div className="relative min-h-dynamic-full bg-blue-50">
+		<div className="relative h-dynamic-full max-h-[900px] bg-blue-50] overflow-hidden">
 			{/* ts particles */}
 			{/* <TsParticles /> */}
 
 			<Container
 				styleClasses={
-					"grid grid-rows-2 lg:grid-rows-none lg:grid-cols-2 justify-items-center lg:justify-items-start gap-6 h-dynamic-full pt-12 lg:pt-0 overflow-hidden"
-				}
-			>
+					"grid grid-rows-2 lg:grid-rows-none lg:grid-cols-2 justify-items-center lg:justify-items-start gap-6 h-full pt-12 lg:pt-0"
+				}>
 				{/* introduction */}
 				<motion.div
 					initial={{ y: 100 }}
 					animate={{ y: 0 }}
 					transition={{ duration: 0.8 }}
-					className="text-center lg:text-left space-y-6 self-center"
-				>
+					className="text-center lg:text-left space-y-6 self-center">
 					<h1
 						initial={{ y: 100 }}
 						animate={{ y: 0 }}
 						transition={{ duration: 1 }}
-						className="text-5xl xl:text-6xl font-bold text-blue"
-					>
+						className="text-5xl xl:text-6xl font-bold text-blue">
 						<span className="text-dark-200">
 							Hello{" "}
 							<motion.span
@@ -38,8 +35,7 @@ const Hero = () => {
 									repeatType: "reverse",
 									repeatDelay: 0.25,
 								}}
-								className="inline-block"
-							>
+								className="inline-block">
 								👋
 							</motion.span>
 							,<br /> I am
@@ -48,9 +44,8 @@ const Hero = () => {
 					</h1>
 
 					<p className="text-lg xl:text-xl">
-						A dynamic front-end developer with over 1 years of
-						experience in HTML, CSS, and JavaScript, complemented by
-						proficiency in React.
+						A dynamic front-end developer with over 1 years of experience in HTML, CSS, and
+						JavaScript, complemented by proficiency in React.
 					</p>
 
 					{/* Rounded button for CTA*/}
@@ -63,8 +58,7 @@ const Hero = () => {
 							damping: 5,
 						}}
 						href="#social-links"
-						className="group flex gap-2 items-center justify-center p-5 py-2.5 mx-auto lg:mx-0 rounded-full text-white font-medium bg-blue active:bg-blue-300 hover:bg-blue-400 transition-[background] w-fit "
-					>
+						className="group flex gap-2 items-center justify-center p-5 py-2.5 mx-auto lg:mx-0 rounded-full text-white font-medium bg-blue active:bg-blue-300 hover:bg-blue-400 transition-[background] w-fit ">
 						Hire me
 						<ArrowLeft className="rotate-180 transition-transform group-hover:translate-x-1.5" />
 					</motion.a>
@@ -76,7 +70,7 @@ const Hero = () => {
 					animate={{ y: 0 }}
 					transition={{ duration: 1 }}
 					src={profile2}
-					className="h-full w-auto xl:w-full lg:h-auto object-cover self-end"
+					className="h-full w-auto xl:w-full lg:h-auto object-cover self-end drop-shadow-[0px_0px_10px_rgba(0,0,0,0.3)]"
 					alt="Rashid Ameer"
 				/>
 			</Container>
