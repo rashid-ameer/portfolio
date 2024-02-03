@@ -15,6 +15,14 @@ import rmovies4 from "./images/rmovies-4.webp";
 import profile1 from "./images/profile-1.jpg";
 import profile2 from "./images/profile-2.png";
 
+import insagram1 from "./images/insagram-1.png";
+import insagram2 from "./images/insagram-2.png";
+import insagram3 from "./images/insagram-3.png";
+import insagram4 from "./images/insagram-4.png";
+import insagram5 from "./images/insagram-5.png";
+import insagram6 from "./images/insagram-6.png";
+import insagram7 from "./images/insagram-7.png";
+
 export {
 	profile1,
 	profile2,
@@ -31,4 +39,11 @@ export {
 	rmovies2,
 	rmovies3,
 	rmovies4,
+	insagram1,
+	insagram2,
+	insagram3,
+	insagram4,
+	insagram5,
+	insagram6,
+	insagram7,
 };
