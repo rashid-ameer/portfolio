@@ -44,7 +44,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg xl:text-xl">
-            A dynamic front-end developer with over 4 years of experience in HTML, CSS, and JavaScript, complemented by
+            A dynamic front-end developer with over 1 year of experience in HTML, CSS, and JavaScript, complemented by
             proficiency in React.
           </p>
 
